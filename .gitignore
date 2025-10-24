@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.coverage
+.pytest_cache/
+dist/
+build/
+
+# --- Editors/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Obsidian (keep only the notes you want) ---
+.obsidian/
+.trash/
+# If your Obsidian vault is separate, copy only selected .md files into docs/
+# and keep the vault itself out of the repo.
+
+# --- Data / outputs (adjust as needed) ---
+*.log
+*.tmp
+outputs/
+data/raw/
+EOF
+"# Ignore Python, editors, OS, and Obsidian\n" 
