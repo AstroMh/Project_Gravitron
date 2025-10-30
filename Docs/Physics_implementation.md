@@ -8,14 +8,14 @@ This document explains the **physics theory** behind the impact-and-recovery beh
 
 For each dynamic entity (robot / opponent / projectile), we maintain:
 
-- Mass \(m\), radius \(r\) (disk model for collisions)  
-- Position \(\mathbf{p} = (x, y)\), velocity \(\mathbf{v} = (v_x, v_y)\)  
-- (Optional) Orientation \(\theta\), angular velocity \(\omega\), moment of inertia \(I\) — only needed if we want **spin**
+- Mass $m$, radius $r$ (disk model for collisions)  
+- Position $mathbf{p} = (x, y)$, velocity $mathbf{v} = (v_x, v_y)$  
+- (Optional) Orientation $theta$, angular velocity $omega$, moment of inertia $I$ — only needed if we want **spin**
 
 **Target-relative vectors** (useful for orbit control):
 
-- \(\mathbf{r} = \mathbf{p} - \mathbf{p}_t\), distance \(r = \|\mathbf{r}\|\)  
-- Unit radial \( \mathbf{e}_r = \mathbf{r} / r \), unit tangent \( \mathbf{e}_t = (-e_{r,y}, e_{r,x}) \) (CCW)
+- $mathbf{r} = \mathbf{p} - \mathbf{p}_t$, distance $r = \|\mathbf{r}\|$  
+- Unit radial $ \mathbf{e}_r = \mathbf{r} / r $, unit tangent $ \mathbf{e}_t = (-e_{r,y}, e_{r,x}) $ (CCW)
 
 ---
 
