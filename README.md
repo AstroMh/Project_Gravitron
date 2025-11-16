@@ -249,7 +249,3 @@ See `orbit_dive_project_log.md` for the running log:
 4. Add/extend test scenarios where relevant.
 
 ---
-
-### Quick Description (for GitHub “About”)
-
-> Fighting robot project: fixed-radius **orbit**, command **dive/attack**, deterministic **wall-bounce** & **corner-glide**. Starts as a 2D sim → becomes a game → powers the real robot with **Vortex AI** (behavior cloning + RL).
